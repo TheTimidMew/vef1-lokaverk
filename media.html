@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Queen</title>
+</head>
+<body>
+    <div class="logo">
+        <a href="./index.html#header"><img src="./images/Queen_Logo.png" alt="Link To Homepage"></a>
+    </div>
+    <picture>
+        <source media="(min-width:80rem)" srcset="./images/queen_1920.jpg">
+        <source media="(min-width:60rem)" srcset="./images/queen_1280.jpg">
+        <source media="(min-width:48rem)" srcset="./images/queen_960.jpg"> 
+        <source media="(min-width:37.5rem)" srcset="./images/queen_768.jpg">
+        <source media="(min-width:20rem)" srcset="./images/queen_430.jpg">
+        <img src="./images/queen_1280.jpg" alt="Picture of queen" style="width:auto;">
+    </picture>
+    <header id="header">
+        <h1>Queen</h1> 
+        <nav>
+            <a href="./index.html#header">Queen</a> |
+            <a href="./band_members.html#header">Band Members</a> |
+            <a class="active_nav" href="./media.html#header">Media</a> |
+            <a href="./albums.html#header">Albums</a> |
+        </nav> 
+    </header>
+    <main class="container col-2">
+        <div>
+            <article>
+                <h3>Bohemian Rhapsody</h3>
+                <p><div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/fJ9rUzIMcZQ?si=6PrlphL3xu-WkWVz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></p>
+                <p>"Bohemian Rhapsody" topped the UK Singles Chart for nine weeks (plus another five weeks following Mercury's death in 1991) and is the UK's third best-selling single of all time.</p>
+                <h3>We Are The Champions</h3>
+                <p><div class="video-container" > <iframe width="560" height="315" src="https://www.youtube.com/embed/04854XqcfCY?si=Dtje6AcLAztbJFeP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></p>   
+                <p>"We Are the Champions" has become an anthem for victories at sporting events,including as an official theme song for the 1994 FIFA World Cup, and has been often used or referenced in popular culture.</p>
+            </article>
+
+        </div>
+        <div>
+			<aside>
+            <h3>Audio Files</h3>
+            <p>Radio Gaga:</p>
+            <audio controls>
+                <source src="./mp3/gaga.mp3" type="audio/mpeg">
+            </audio>
+            <p>Don't Stop Me Now:</p>
+            <audio controls>
+                <source src="./mp3/dont_stop.mp3" type="audio/mpeg">
+            </audio>
+            <p>Another One Bites The Dust:</p>
+            <audio controls>
+                <source src="./mp3/dust.mp3" type="audio/mpeg">
+            </audio>
+            <p>Killer Queen:</p>
+            <audio controls>
+                <source src="./mp3/killer_queen.mp3" type="audio/mpeg">
+            </audio>
+			</aside>
+		</div>
+    </main>
+    <footer class="container col-3">
+		<section>
+			<img src="./images/queen_logo_footer.png" alt="Queen Logo">
+            <p>&copy; 2024 Trausti</p>
+
+		</section>
+		<section class="socials">
+            <a href="https://www.instagram.com/officialqueenmusic/"><img src="./images/instagram.png" alt="Instagram Logo"></a>
+            <a href="https://www.youtube.com/channel/UCiMhD4jzUqG-IgPzUmmytRQ"><img src="./images/youtube.png" alt="Youtube Logo"></a>
+            <a href="https://www.facebook.com/Queen/"><img src="./images/facebook.png" alt="Facebook Logo"></a>
+        </section>
+		<section class="sources">
+            <p>Sources</p>
+				<a href="https://en.wikipedia.org/wiki/Queen_(band)">Wikipedia</a><br>
+				<a href="https://queenonline.com">Queen Offical Page</a><br>
+		</section>
+	</footer>
+</body>
+</html>
